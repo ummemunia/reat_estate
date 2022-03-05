@@ -1,0 +1,65 @@
+@media (min-width: 320px) and (max-width:575.9px) {
+    .container {
+        width: 320px;
+    }
+    .banner {
+        width: 320px;
+    }
+    .col-xs-1 {
+        width: calc(var(--fixed_width)*1%);
+    }
+
+    .col-xs-2 {
+        width: calc(var(--fixed_width)*2%);
+    }
+
+    .col-xs-3 {
+        width: calc(var(--fixed_width)*3%);
+    }
+
+    .col-xs-4 {
+        width: calc(var(--fixed_width)*4%);
+    }
+
+    .col-xs-5 {
+        width: calc(var(--fixed_width)*5%);
+    }
+
+    .col-xs-6 {
+        width: calc(var(--fixed_width)*6%);
+    }
+
+    .col-xs-7 {
+        width: calc(var(--fixed_width)*7%);
+    }
+
+    .col-xs-8 {
+        width: calc(var(--fixed_width)*8%);
+    }
+
+    .col-xs-9 {
+        width: calc(var(--fixed_width)*9%);
+    }
+
+    .col-xs-10 {
+        width: calc(var(--fixed_width)*10%);
+    }
+
+    .col-xs-11 {
+        width: calc(var(--fixed_width)*11%);
+    }
+
+    .col-xs-12 {
+        width: calc(var(--fixed_width)*12%);
+    }
+}
+
+@media (min-width: 576px) and (max-width:767.9px) {}
+
+@media (min-width: 768px) and (max-width:991.9px) {}
+
+@media (min-width: 992px) and (max-width:1199.9px) {}
+
+@media (min-width: 1200px) and (max-width:1399.9px) {}
+
+@media (min-width: 1400px) {}
