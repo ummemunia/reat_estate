@@ -1,9 +1,125 @@
 @media (min-width: 320px) and (max-width:575.9px) {
     .container {
-        width: 320px;
+        width: 100%;
     }
-    .banner {
-        width: 320px;
+    .banner .msg {
+        position: absolute;
+        background-color: white;
+        width: 200px;
+        height: 220px;
+        top: 230px;
+        left: 50px;
+        padding: 15px;
+        color: #9c9c9c;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+    .banner .msg h2 {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    .banner .msg h3 {
+        font-size: 20px;
+        color: black;
+    }
+    
+    .banner .msg h4 {
+        text-transform: uppercase;
+    
+    }
+    .banner .show {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        width: 200px;
+        top: 460px;
+        left: 50px;
+        background-color: #51b97e;
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .banner .more_img {
+        position: absolute;
+        top: 644px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        height: 55px;
+        width: 95%;
+    }
+    .banner .more_img ul li {
+        list-style-type: none;
+        margin: 5px;
+        height: 50px;
+        width: 200px;
+    
+    }
+    .fast_txt{
+        padding: 0px 10px;
+    }
+    .details {
+        background-color: #f0f0f0;
+        height: 720px;
+        margin: 60px 0px 10px;
+        padding: 60px 90px;
+    }
+    .details .interior h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: lighter;
+        padding-bottom: 15px;
+    }
+    .gallery .gal_body {
+        padding: 10px 10px;
+        position: relative;
+    }
+    
+    .gallery .gal_body h4 {
+        position: absolute;
+        color: black;
+        top: 125px;
+        padding: 10px 15px;
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    .location .pro a {
+        text-decoration: none;
+        color: white;
+        display: block;
+        width: 230px;
+        padding: 15px 20px;
+        background-color: #616161;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .front {
+        background-color: #46a969;
+        height: 350px;
+        position: absolute;
+        width: 100%;
+        opacity: 0.9;
+        top: 0px;
+        text-align: center;
+        padding: 70px 0px;
+        color: white;
+    }
+    .copy {
+        text-align: center;
+        margin-top: 20px;
+        color: #b0aab0;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .footer_links a i {
+        color: #bcbcbc;
+        width: 20px;
+        text-align: center;
+        font-size: 15px;
     }
     .col-xs-1 {
         width: calc(var(--fixed_width)*1%);
