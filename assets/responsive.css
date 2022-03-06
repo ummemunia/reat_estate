@@ -121,6 +121,62 @@
         text-align: center;
         font-size: 15px;
     }
+    /* menu */
+    nav .logo_name{
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    nav{
+        position: relative;
+        border: 1px solid red;
+    }
+    .design_btn{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 15px;
+        padding: 10px;
+        opacity: 1;
+        visibility: visible;
+    }
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        border: 1px solid red;
+        width: 100%;
+        background-color: black;
+        z-index: 999;
+        transition: 0.8s;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    nav ul li {
+        padding: 10px 0px;
+    }
+    nav ul ul {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: 180px;
+        position: absolute;
+        top: 60px;
+        visibility: hidden;
+    }
+    
+    nav ul li:hover > ul {
+        top: 40px;
+        transition: 0.8s;
+        visibility: visible;
+    }
+    
+    nav ul ul li {}
+    
+    nav ul ul li a {
+        text-transform: capitalize;
+        font-size: 14px;
+        display: block;
+    }
     .col-xs-1 {
         width: calc(var(--fixed_width)*1%);
     }

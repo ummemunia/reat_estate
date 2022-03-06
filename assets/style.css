@@ -82,11 +82,28 @@ body {
     position: relative;
     border-bottom: 1px solid white;
 }
-
+nav{
+    transition: all linear 0.3s;
+    position: relative;
+}
+.res_nav{
+    opacity: 1;
+    visibility: visible;
+}
+.design_btn{
+    opacity: 0;
+    visibility: hidden;
+}
+.design_btn i{
+    width: 26px;
+    font-size:19px;
+    text-align: center;
+}
 nav .logo_name {
+    padding-top: 20px;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav ul {
