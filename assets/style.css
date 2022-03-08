@@ -389,7 +389,8 @@ img {
     display: block;
     padding: 15px 25px;
     background-color: #616161;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .location .pro a:hover {
@@ -415,7 +416,7 @@ img {
     background-color: #46a969;
     height: 350px;
     position: absolute;
-    width: 1400px;
+    width: 100%;
     opacity: 0.9;
     top: 0px;
     text-align: center;
